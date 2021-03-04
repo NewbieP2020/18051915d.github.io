@@ -1,4 +1,12 @@
 <html>
+
+<head>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&display=swap" rel="stylesheet"> 
+
+</head>
+
 <style>
 body {
   background-image: url("papertexture.jpg");
@@ -10,6 +18,11 @@ body {
 
 .view {
 	font-size: 1.1vw;
+
+}
+
+*{
+	font-family: 'Alegreya', serif;
 
 }
 
@@ -71,6 +84,13 @@ div.gallery img {
   height: auto;
 }
 
+div.s {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 10px;
+
+}
+
 a[href$=".mp4"]::after{
 	content: url(internal-link.png);
 }
@@ -96,14 +116,12 @@ i a::after{
 <h1 style="font-size: 4vw;">Kin Sang WONG</h1>
 </div>
 
-<div>
-<div>
+
+<div class="s">
 <p>A COMP undergraduate in PolyU</p>
+<hr>
 </div>
-</div>
-<div>
-<div><hr /></div>
-</div>
+
 
 <div class="gallery">
   <a target="_blank" href="IMG_20210129_174326.jpg">
